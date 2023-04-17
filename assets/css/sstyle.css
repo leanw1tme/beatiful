@@ -387,6 +387,13 @@ h6 {
   /* Search Bar */
 }
 
+.header .redactor-btn {
+  font-size: 25px;
+  padding-left: 10px;
+  cursor: pointer;
+  color: #012970;
+}
+
 .header .toggle-sidebar-btn {
   font-size: 32px;
   padding-left: 10px;
@@ -602,7 +609,7 @@ h6 {
   top: 60px;
   left: 0;
   bottom: 0;
-  width: 500px;
+  width: 310px;
   z-index: 996;
   transition: all 0.3s;
   padding: 20px;
@@ -686,7 +693,7 @@ h6 {
   font-weight: 600;
   color: #4154f1;
   transition: 0.3;
-  background: #f6f9ff;
+  background: #dce8ff;
   padding: 10px 15px;
   border-radius: 4px;
 }
@@ -698,7 +705,7 @@ h6 {
 }
 
 .sidebar-nav .nav-link.collapsed {
-  color: #012970;
+  color: #899bbd;
   background: #fff;
 }
 
@@ -707,12 +714,12 @@ h6 {
 }
 
 .sidebar-nav .nav-link:hover {
-  color: #4154f1;
-  background: #f6f9ff;
+  color: #5867f0;
+  background: #dce8ff;
 }
 
 .sidebar-nav .nav-link:hover i {
-  color: #4154f1;
+  color: #5867f0;
 }
 
 .sidebar-nav .nav-link .bi-chevron-down {
@@ -755,6 +762,34 @@ h6 {
 
 .sidebar-nav .nav-content a.active i {
   background-color: #4154f1;
+}
+
+.butconteiner {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+}
+
+.sidebar .plus-btn {
+  font-size: 25px;
+  margin: center;
+  padding-left: 10px;
+  cursor: pointer;
+  color: #4154f1;
+}
+
+.sidebar .delete-btn {
+  font-size: 25px;
+  padding-left: 10px;
+  cursor: pointer;
+  color: #4154f1;
+}
+
+.sidebar .transition-btn {
+  font-size: 25px;
+  padding-left: 10px;
+  cursor: pointer;
+  color: #4154f1;
 }
 
 /*--------------------------------------------------------------
