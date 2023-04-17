@@ -1,1 +1,1 @@
-![Image alt](https://github.com/leanw1tme/beatiful/blob/main/assets/img/wife.png)
+![wife.png](https://github.com/leanw1tme/beatiful/blob/main/assets/img/wife.png)
